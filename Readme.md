@@ -20,6 +20,9 @@ payload=
 Run the following command in the terminal - **python cartesian_product.py**. <br>
 This will generate your data file - **Cartesian_Product.csv**. <br>
 
+ ======================================================================================
+
+
 ## flatten_plan.py
 1. It helps to flatten a plan tree structure data into tabular structure data.
 2. Replace **plan_id** in the **create_plan_tree_payload** variable inside **flatten_plan.py** file.
@@ -33,3 +36,6 @@ This will generate your data file - **Cartesian_Product.csv**. <br>
 
 Run the following command in the terminal - **python flatten_plan.py**. <br>
 This will generate your data file - **Flattened_Plan_Tree.csv**. <br>
+
+
+For the sample of API's response, refer to the json files in the repository.
