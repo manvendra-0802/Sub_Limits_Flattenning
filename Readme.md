@@ -20,9 +20,12 @@ This will generate your data file - **Cartesian_Product.csv**. <br>
 1. It helps to flatten a plan tree structure data into tabular structure data.
 2. Replace **plan_id** in the **create_plan_tree_payload** variable inside **flatten_plan.py** file.
 
-    create_plan_tree_payload = {<br>
-        "plan_id": 85<br>
-    }<br>
+```python
+    create_plan_tree_payload = 
+    {
+        "plan_id": 85
+    }
+```
 
 Run the following command in the terminal - **python flatten_plan.py**. <br>
 This will generate your data file - **Flattened_Plan_Tree.csv**. <br>
