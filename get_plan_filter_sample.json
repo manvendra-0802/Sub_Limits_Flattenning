@@ -1,0 +1,194 @@
+{
+  "jsonData": 
+  {
+    "limits": {
+      "available_limit": 30042,
+      "balance_amount": 30042,
+      "in_process_amount": 0,
+      "utilised_amount": 9958,
+      "total_limit": 40000
+    },
+    "filters": [
+      {
+        "label": "Services",
+        "key": "services",
+        "values": [
+          {
+            "label": "Dental",
+            "id": 1,
+            "sub_types": [
+              {
+                "label": "Dental Consultation",
+                "icon": "https://res.cloudinary.com/immunityhealth-me/image/upload/v1709620393/immunity/Plan%20sub%20categories%20images/Group_157973.png",
+                "id": 1,
+                "subcategory_mapping_id": 1,
+                "reimbursement_mapping_id": 1
+              },
+              {
+                "label": "Root Canal",
+                "icon": "https://res.cloudinary.com/immunityhealth-me/image/upload/v1709620392/immunity/Plan%20sub%20categories%20images/Group_-6.png",
+                "id": 2,
+                "subcategory_mapping_id": 2,
+                "reimbursement_mapping_id": 2
+              },
+              {
+                "label": "Tooth filling",
+                "icon": "https://res.cloudinary.com/immunityhealth-me/image/upload/v1709620392/immunity/Plan%20sub%20categories%20images/Group_-4.png",
+                "id": 3,
+                "subcategory_mapping_id": 5,
+                "reimbursement_mapping_id": 5
+              },
+              {
+                "label": "Other Dental Procedures",
+                "icon": null,
+                "id": 24,
+                "subcategory_mapping_id": 25,
+                "reimbursement_mapping_id": 25
+              }
+            ]
+          },
+          {
+            "label": "Doctor Consultation",
+            "id": 2,
+            "sub_types": [
+              {
+                "label": "Inclinic Doctor Consultation",
+                "icon": "https://res.cloudinary.com/immunityhealth-me/image/upload/v1709620393/immunity/Plan%20sub%20categories%20images/Group_157974.png",
+                "id": 4,
+                "subcategory_mapping_id": 6,
+                "reimbursement_mapping_id": 6
+              }
+            ]
+          },
+          {
+            "label": "Diagnostics",
+            "id": 3,
+            "sub_types": [
+              {
+                "label": "Prescribed Diagnostics",
+                "icon": "https://res.cloudinary.com/immunityhealth-me/image/upload/v1709620392/immunity/Plan%20sub%20categories%20images/Group_-3.png",
+                "id": 7,
+                "subcategory_mapping_id": 7,
+                "reimbursement_mapping_id": 7
+              }
+            ]
+          },
+          {
+            "label": "Pharmacy",
+            "id": 4,
+            "sub_types": [
+              {
+                "label": "Prescribed Pharmacy",
+                "icon": "https://res.cloudinary.com/immunityhealth-me/image/upload/v1709620392/immunity/Plan%20sub%20categories%20images/Group_-2.png",
+                "id": 8,
+                "subcategory_mapping_id": 8,
+                "reimbursement_mapping_id": 8
+              }
+            ]
+          },
+          {
+            "label": "Vision",
+            "id": 9,
+            "sub_types": [
+              {
+                "label": "Vision - Consultation and Non-cosmetic treatment",
+                "icon": null,
+                "id": 19,
+                "subcategory_mapping_id": 19,
+                "reimbursement_mapping_id": 19
+              }
+            ]
+          },
+          {
+            "label": "Cultfit Elite Pass/Fitpass",
+            "id": 28,
+            "sub_types": [
+              {
+                "label": "Cultfit Elite Pass/Fitpass",
+                "icon": null,
+                "id": 46,
+                "subcategory_mapping_id": 47,
+                "reimbursement_mapping_id": 47
+              }
+            ]
+          },
+          {
+            "label": "Full Body Health Profile",
+            "id": 31,
+            "sub_types": [
+              {
+                "label": "Full Body Health Profile 86 Parameters(MLPD)",
+                "icon": null,
+                "id": 49,
+                "subcategory_mapping_id": 50,
+                "reimbursement_mapping_id": 50
+              }
+            ]
+          },
+          {
+            "label": "Wellness",
+            "id": 33,
+            "sub_types": [
+              {
+                "label": "Cultfit",
+                "icon": null,
+                "id": 52,
+                "subcategory_mapping_id": 53,
+                "reimbursement_mapping_id": 53
+              },
+              {
+                "label": "Physiocare Consultation",
+                "icon": null,
+                "id": 54,
+                "subcategory_mapping_id": 55,
+                "reimbursement_mapping_id": 55
+              },
+              {
+                "label": "Physiocare Sessions",
+                "icon": null,
+                "id": 55,
+                "subcategory_mapping_id": 56,
+                "reimbursement_mapping_id": 56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Beneficiary",
+        "key": "relations",
+        "values": [
+          {
+            "relation_id": 9,
+            "id": 822256,
+            "label": "Self",
+            "relation": "self",
+            "gender": "Female",
+            "key": "relations",
+            "name": "Riya Sharma"
+          },
+          {
+            "relation_id": 2,
+            "id": 822259,
+            "label": "Father",
+            "relation": "father",
+            "gender": "Male",
+            "key": "relations",
+            "name": "Rajesh Kumar Sharma"
+          },
+          {
+            "relation_id": 3,
+            "id": 822261,
+            "label": "Mother",
+            "relation": "mother",
+            "gender": "Female",
+            "key": "relations",
+            "name": "Kshama Sharma"
+          }
+        ]
+      }
+    ],
+    "plan_order_id": "AHPOUID1178735PID84SR1"
+  },
+  "status": "true"
+}
