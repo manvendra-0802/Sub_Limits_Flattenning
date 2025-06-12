@@ -134,7 +134,7 @@ def main():
     print("\nFLATTENED PLAN TREE TABLE")
     print(df_flattened_tree.head())
 
-    df_flattened_tree.to_csv("flattened_plan_tree.csv", index=False)
+    df_flattened_tree.to_csv("Flattened_Plan_Tree.csv", index=False)
 
 if __name__ == "__main__":
     main()

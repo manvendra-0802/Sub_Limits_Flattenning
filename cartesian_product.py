@@ -161,7 +161,7 @@ def main():
     print("\nCARTESIAN PRODUCT GENERATED:")
     print(df_cartesian.head())
 
-    df_cartesian.to_csv("CP_FINAL.csv", index=False)
+    df_cartesian.to_csv("Cartesian_Product.csv", index=False)
     print("File saved-:cartesian_product.csv")
 
 if __name__ == "__main__":
